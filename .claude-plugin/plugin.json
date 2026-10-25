@@ -1,0 +1,25 @@
+{
+  "name": "2d-web-game-skills",
+  "version": "0.1.0",
+  "description": "Write and review 2D browser games that run smoothly, feel good and survive real players: a writing skill and a review skill covering the game loop, rendering, input, audio, game feel, loading, saves and accessibility.",
+  "license": "MIT",
+  "author": {
+    "name": "debuff",
+    "url": "https://debuff.jp"
+  },
+  "homepage": "https://github.com/debuffjp/2d-web-game-skills",
+  "repository": "https://github.com/debuffjp/2d-web-game-skills",
+  "keywords": [
+    "2d",
+    "best-practices",
+    "canvas",
+    "code-review",
+    "game-dev",
+    "game-feel",
+    "phaser",
+    "pixijs",
+    "skill",
+    "web-games",
+    "webgl"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "name": "2d-web-game-skills",
+  "owner": {
+    "name": "debuff",
+    "url": "https://debuff.jp"
+  },
+  "description": "Skills for writing and reviewing 2D web games with coding agents.",
+  "plugins": [
+    {
+      "name": "2d-web-game-skills",
+      "source": "./",
+      "description": "Teach coding agents to write and review 2D browser games: loop, rendering, input, audio, game feel, saves and accessibility."
+    }
+  ]
+}
