@@ -1,0 +1,23 @@
+{
+  "date": "2026-10-26",
+  "agent": "Claude Code 2.1.310, model alias sonnet, headless (-p), --setting-sources project",
+  "grader": "blind LLM grader per case (shuffled run folders), scoring graders.md checks 0/1 from code",
+  "runs": {
+    "canvas-platformer": {
+      "with":    {"1": [1,1,1,1,1,1,1,1,1,1], "2": [1,1,0,1,1,0,0,0,1,1], "3": [1,1,1,1,1,1,1,1,1,1]},
+      "without": {"1": [1,1,0,1,0,0,0,0,1,1], "2": [1,1,0,1,0,0,0,0,1,1], "3": [1,1,0,1,0,0,0,0,1,1]}
+    },
+    "phaser-arena-shooter": {
+      "with":    {"1": [1,1,1,1,1,1,1,1,1,1], "2": [1,1,1,1,1,1,1,1,1,1], "3": [1,1,1,1,1,1,1,1,1,1]},
+      "without": {"1": [0,1,1,0,0,0,0,1,0,0], "2": [0,1,1,0,0,0,1,1,1,0], "3": [1,1,1,0,0,0,0,1,0,0]}
+    },
+    "refactor-messy-shooter": {
+      "with":    {"1": [1,1,1,1,1,1,1,1,1,1], "2": [1,1,1,1,1,1,1,1,1,1], "3": [1,1,1,1,1,1,1,1,1,1]},
+      "without": {"1": [1,0,1,1,1,1,1,0,1,1], "2": [0,1,1,1,0,1,1,0,1,1], "3": [0,1,1,1,0,1,1,0,1,1]}
+    }
+  },
+  "notes": [
+    "canvas-platformer with-2 did not invoke the skill (it loaded only rigor), so it is effectively a without run; it scored 6, the same as every without run.",
+    "The maintainer's global CLAUDE.md asks for a 'rigor' skill; it loaded in some runs of both arms."
+  ]
+}

@@ -33,6 +33,10 @@ These skills cover the 50 or so rules that prevent that, grouped by area:
 Each rule has a stable ID (`LOOP-1`, `INPUT-7`) so review findings can cite it. Feel rules
 come as starting numbers and options: the human decides how their game should feel.
 
+## Results
+
+Three tasks (a plain-canvas platformer, a Phaser arena shooter and a refactor of a buggy shooter), three runs each with and without the skills: **86/90 checks passed with the skills, 53/90 without.** Every run that loaded the skill scored 10/10. Method, per-run scores and caveats are in [evals/](evals/).
+
 ## Install
 
 Each skill is a folder under `skills/`. Install both; the review skill reads the

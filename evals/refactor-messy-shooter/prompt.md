@@ -1,0 +1,1 @@
+game.js is a small browser shooter that a friend wrote. It works on their machine but players report it feels inconsistent, stutters after a while, sometimes the ship keeps moving on its own, and the sound is unreliable. Improve it. Keep the same gameplay and keep it plain JavaScript in game.js with index.html. When you're done, list what you changed and why.
