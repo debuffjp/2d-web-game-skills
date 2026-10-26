@@ -2,12 +2,14 @@
 name: 2d-web-game-best-practices
 description: >-
   Write 2D browser games that run smoothly, feel good and survive real players. Use this
-  skill whenever you write, change, debug or explain code for a 2D game that runs in a
-  web page: game loops, update and render functions, sprites, tile maps, cameras, input,
-  audio, particles, tweens, scenes, saves, loading screens or game feel. Trigger on any
-  mention of canvas, WebGL, requestAnimationFrame, Phaser, PixiJS, KAPLAY, Excalibur,
-  debuff, spryte or a browser game, even when the user does not ask for "best
-  practices". Not for 3D games.
+  skill before writing any game that runs in a web page, including small ones in plain
+  HTML canvas and JavaScript with no libraries: platformers, shooters, puzzles, arcade
+  games, game jams and prototypes. Also use it when changing, debugging or explaining
+  game code: game loops, update and render functions, sprites, tile maps, cameras,
+  input, audio, particles, tweens, scenes, saves, loading screens or game feel. Trigger
+  on any mention of a game together with canvas, index.html, JavaScript, TypeScript,
+  WebGL, requestAnimationFrame, Phaser, PixiJS, KAPLAY, Excalibur, debuff or spryte, even
+  when the user does not ask for "best practices". Not for 3D games.
 ---
 
 # 2D web game best practices

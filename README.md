@@ -35,7 +35,7 @@ come as starting numbers and options: the human decides how their game should fe
 
 ## Results
 
-Three tasks (a plain-canvas platformer, a Phaser arena shooter and a refactor of a buggy shooter), three runs each with and without the skills: **86/90 checks passed with the skills, 53/90 without.** Every run that loaded the skill scored 10/10. Method, per-run scores and caveats are in [evals/](evals/).
+Three tasks (a plain-canvas platformer, a Phaser arena shooter and a refactor of a buggy shooter), three runs each with and without the skills: **86/90 checks passed with the skills, 53/90 without.** Every run that loaded the skill scored 10/10; after a description fix, six more canvas runs loaded it every time and scored 60/60. Method, per-run scores and caveats are in [evals/](evals/).
 
 ## Install
 

@@ -13,6 +13,8 @@ Run on 2026-10-26 with Claude Code 2.1.310 headless, model alias `sonnet`. Score
 
 The four missed checks with the skills all come from one run (`canvas-platformer` with-2) where the agent didn't load the skill. It scored 6/10, the same as each run without it. With the skill loaded, every run scored 10/10.
 
+**Rerun after a description fix.** The miss was a triggering problem, so the skill description now names plain HTML canvas and JavaScript games explicitly. Six fresh `canvas-platformer` runs with the skills: the skill loaded in 6/6 and every run scored 10/10 (60/60).
+
 Checks without the skills that failed most often: pausing when the tab is hidden (LIFE-1, 0/9), clearing held keys on blur (INPUT-7, 1/6), input buffering or coyote time, `devicePixelRatio` sizing, audio buses and voice caps, and start screens.
 
 ## What this doesn't show
@@ -20,7 +22,7 @@ Checks without the skills that failed most often: pausing when the tab is hidden
 - Three runs per arm on one model. Treat the gap as a direction, not a precise number.
 - The checks come from the same rule list the skill teaches, so they measure whether the agent follows the rules, not whether the rules are the right ones.
 - Grading reads code; nothing was played in a browser. Runtime checks (frame time, GC, input latency) aren't automated yet.
-- The skill fired in 8 of 9 runs. Triggering on "plain canvas" prompts needs work.
+- Triggering was measured on these three prompts only: 8/9 before the description fix, 6/6 after.
 
 ## Running it
 
